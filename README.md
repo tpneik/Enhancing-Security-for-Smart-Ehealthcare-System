@@ -20,7 +20,7 @@ federated learning without encryption.
 
 ## Infratructure
 
-![Alt text](./images/infra.png")
+![image info](./images/infra.png)
 
 ## Contribution
 The main contributions of this study are highlighted as
@@ -34,3 +34,9 @@ methods;
 - Integrating Homomorphic Encryption on Federated
 Learning architecture to increase security and privacy
 during training on medical datasets.
+
+# Scientific Publication
+
+ACOMPA 2024 - 18th International Conference on Advanced Computing and Analytics
+
+| ENHANCING SECURITY AND AUTOMATING FOR SMART EHEALTHCARE SYSTEM BASED ON IOT AND FEDERATED LEARNING | Duy Nguyen-Khanh, Kien Phan-Trung, Loi Huynh-Phu, Thuat Nguyen-Khanh, Quan Le-Trung.
