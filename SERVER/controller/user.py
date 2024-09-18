@@ -33,11 +33,12 @@ def login():
                 os.getenv('SECRET_KEY'),
                 algorithm="HS256"
             )
+            token = user["token"]
             print("[5.1] return script! ")
             return {
                 "message": "Successfully fetched auth token",
-                "data": user,
-                "script": "python -m or sth"
+                "data": user
+                # "script": f"curl -sSL -H 'Authorization: {token}' http://172.31.0.60:5000/sh_file | bash -s -- {token}"
             }
         except Exception as e:
             print(f"Something went wrong: {e}")
